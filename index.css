@@ -22,16 +22,19 @@ a {
     font-weight: bold;
 }
 h1 {
+    /*you can change width and size*/
     width: fit-content;
     font-size: 40px;
     background-color: rgb(234 97 105);
 }
 h2{
+    /*you can change width and size*/
     width: fit-content;
     font-size: 33px;
     background-color: #3fa89a;
 }
 h3{
+    /*you can change width and size*/
     width: fit-content;
     font-size: 27px;
     background-color: #3fa89a;
