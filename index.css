@@ -9,6 +9,7 @@ body{
 a, p, h1, h2, h3, h4, h5, h6 {
     color: white;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 .shadow {
     box-shadow: inset -6px 12px 0px 0px rgb(6 55 122);
