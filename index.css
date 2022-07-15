@@ -4,40 +4,37 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #06377a;
+    background-color: #06377b;
+    text-align: center;
 }
 a, p, h1, h2, h3, h4, h5, h6 {
     color: white;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
 }
 .shadow {
-    box-shadow: inset -6px 12px 0px 0px rgb(6 55 122);
+    box-shadow: inset -6px 12px 0px 0px #06377b;
     padding: 0 0 0 7px;
 }
 a {
     padding: 5px 20px;
-    background-color: #ea6169;
+    background-color: #ea616a;
     text-decoration: none;
     font-weight: bold;
 }
 h1 {
-    /*you can change width and size*/
     width: fit-content;
     font-size: 40px;
-    background-color: rgb(234 97 105);
+    background-color: #ea616a;
 }
 h2{
-    /*you can change width and size*/
     width: fit-content;
     font-size: 33px;
-    background-color: #3fa89a;
+    background-color: #40a89a;
 }
 h3{
-    /*you can change width and size*/
     width: fit-content;
     font-size: 27px;
-    background-color: #3fa89a;
+    background-color: #40a89a;
 }
 .navigation-bar{
     text-align: center;
@@ -58,28 +55,28 @@ h3{
     font-size: 40px;
     font-weight: 600;
     text-decoration-line: line-through;
-    text-decoration-color: #06377a;
-    font-family: 'Rubik', sans-serif;
+    text-decoration-color: #06377b;
+    font-family: 'Mulish', sans-serif;
     text-align: left;
 }
 .choices{
     list-style: none;
     display: flex;
-    color: #06377a;
+    color: #06377b;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .choices a{
-    color: #06377a;
+    color: #06377b;
     padding: 0 34px;
     background-color: white;
     text-decoration: none;
     font-weight: 600;
 }
 .choices a:hover {
-    background-color: #06377a;
+    background-color: #06377b;
     color: white;
 }
 .learnmore {
