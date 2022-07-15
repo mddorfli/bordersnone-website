@@ -78,3 +78,9 @@ h3{
     background-color: #06377a;
     color: white;
 }
+.learnmore {
+    width: fit-content;
+    font-size: 40px;
+    background-color: rgb(234 97 105);
+    text-align: center;
+}
