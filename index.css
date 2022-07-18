@@ -45,7 +45,7 @@ img{
     height: 300px;
 }
 header{
-    height: 100vh;
+    height: 78ch;
     background: url(images/Hero-image.JPG);
     background-repeat: no-repeat;
     background-size: 155% 153%;
