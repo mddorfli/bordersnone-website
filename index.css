@@ -46,15 +46,21 @@ img{
 }
 header{
     height: 100vh;
-    background: url("images/Hero-image.JPG");
+    background: url(images/Hero-image.JPG);
     background-repeat: no-repeat;
     background-size: 155% 153%;
-    background-position-y: -160px;
+    background-position-y: -195px;
     background-position-x: center;
     background-color: #06377b;
     background-blend-mode: darken;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    justify-items: center;
 }
 .navigation-bar{
+    grid-area: 1/1/2/13;
+    width: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
@@ -96,6 +102,18 @@ header{
 .choices a:hover {
     background-color: #06377b;
     color: white;
+}
+header h1{
+    grid-area: 7/10/8/11;
+    font-weight: 900;
+    font-size: 56px;
+    background: url(https://color-hex.org/colors/ea616a.png);
+    background-size: 100% 100%;
+    background-position-x: -14px;
+    background-position-y: 26px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 7px;
+    text-align: -webkit-left;
 }
 .learnmore {
     width: fit-content;
