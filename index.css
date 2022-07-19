@@ -47,7 +47,7 @@ img{
 header{
     height: 100vh;
     height: 39rem;
-    background: url(Hero-image3.png);
+    background: url("images/Hero-image.png");
     background-repeat: no-repeat;
     background-size: 155% 153%;
     background-size: cover;
