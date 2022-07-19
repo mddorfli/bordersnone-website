@@ -45,12 +45,15 @@ img{
     height: 300px;
 }
 header{
-    height: 78ch;
-    background: url(images/Hero-image.png);
+    height: 100vh;
+    height: 39rem;
+    background: url(Hero-image3.png);
     background-repeat: no-repeat;
     background-size: 155% 153%;
+    background-size: cover;
     background-position-y: -195px;
     background-position-x: center;
+    background-position: center;
     background-color: #06377b;
     background-blend-mode: darken;
     display: grid;
@@ -103,7 +106,7 @@ header{
     background-color: #06377b;
     color: white;
 }
-header h1{
+header > h1{
     grid-area: 7/10/8/11;
     font-weight: 900;
     font-size: 56px;
@@ -122,25 +125,85 @@ header h1{
     text-align: center;
     padding: 1px;
 }
-.line-between{
+.ABOUT {
+    height: 107ch;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1.5fr 6fr 4fr 7fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+.ABOUT p {
+    font-size: 22px;
+    text-align: left;
+}
+.location-about-child-1 {
+    grid-area: 2/3/3/11;
+    height: 100%;
+}
+.about-child-1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.location-about-child-2 {
+    grid-area: 3/4/4/10;
+}
+.line-between {
     width: 100%;
     height: 56px;
     position: relative;
 }
-.line-between-child-1{
+.line-between-child-1 {
     position: absolute;
     top: 0;
+    bottom: 0;
+    margin: auto;
     height: 3px;
     width: 100%;
     background-color: #ea616a;
 }
-.line-between-child-2{
+.line-between-child-2 {
     margin: auto;
     width: 24px;
     border: 14px solid;
     border-color: #ea616a transparent transparent transparent;
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     left: 0;
+}
+.location-about-child-3 {
+    grid-area: 4/3/5/11;
+    height: 100%;
+}
+.about-child-3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-child-3-section1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-child-3-section2 > button{
+    font-size: 33px;
+    background: #ea616a;
+    color: white;
+    border-style: none;
+    padding: 4px 9px;
+    font-weight: bold;
 }
