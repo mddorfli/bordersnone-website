@@ -1,18 +1,22 @@
-const mdiv= document.querySelector(".GET-INVOLVED");
-const items =mdiv.children;
-for(let i =1 ;i <items.length;i++){
-    let hed =items[i].querySelector(".open-close");
-    let hold=items[i].querySelector(".get---2");
-    let image = hed.querySelector("#img1");
-    hold.style.display="none";
-    hed.addEventListener( 'click',()=>{
+const children1 = document.getElementsByClassName("open-close");
+const children2 = document.getElementsByClassName("get---2");
+let imgq = document.querySelectorAll(".img1");
+let button1= document.querySelectorAll(".button-change");
+for (let i =0; i<children1.length;i++){
+    children2[i].style.display="none";
+    children1[i].addEventListener( 'click',()=>{                
+        let hold=children2[i];                
         if(hold.style.display === "none"){
+            for(let i=0;i<children2.length;i++){
+                children2[i].style.display="none";
+                button1[i].innerHTML="-";
+            }
             hold.style.display ="flex";
-            image.src = "images/plus-sign-svgrepo-com.svg";
+            button1[i].innerHTML="+";
         }
         else{
             hold.style.display ="none";
-            image.src = "images/minus-svgrepo-com.svg";   
+            button1[i].innerHTML="-";   
         };
     });
-};
+}
