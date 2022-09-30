@@ -278,7 +278,9 @@ header > h1{
     flex-direction: row;
     text-align: left;
     justify-content: space-around;
-    height: 350px;
+    height: 480px;
+    align-items: center;
+    align-content: center;
 }
 .all-to-gether-child-1{
     display: flex;
